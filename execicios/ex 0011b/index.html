@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trablhando com imagens</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos ou simplesmente aumente ou dimunua as imagens</p>
+
+
+<picture>
+
+ <source media="(max-width:750px )" srcset="imagens/imagem-p.png" type="image/png">   
+<source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+<img src="imagens/imagem-g.png" alt="imagem flexivel">
+    <h1>reproduzindo audios</h1>
+    <p> vamos aprender a reproduzir audiio em html</p>
+  
+<audio preload="auto" autoplay controls loop>
+
+    <source src="midia/guanacast-33.mp3" type="audio/mp3">
+    <source src="midia/guanacast-33.mp3" type="audio/ogg">
+    <source src="midia/guanacast-33.mp3" type="audio/wav">
+</audio>
+<video src="videos/pexels-pavel-danilyuk-4650167-720x1280-30fps.mp4 " autoplay></video>
+</picture>
+</body>
+</html>
