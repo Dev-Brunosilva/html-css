@@ -12,7 +12,7 @@ html{
 }
 
 header{
-    background-color: lightgreen;
+    background-color: rgb(144, 150, 238);
 }
 header>h1 {
     text-align: center;
@@ -24,7 +24,7 @@ menu ul {
 }
 menu li {
     background-color: aqua;
-    color: antiquewhite;
+    color: rgb(14, 13, 11);
     display: block; padding: 10px;
 }
 article{
