@@ -18,6 +18,7 @@ header>h1 {
 }
 menu{
     display: block;
+    
 }
 menu > ul {
  list-style-type: none;
@@ -34,6 +35,8 @@ menu>ul>li> a{
 }
 menu >ul>li>a:hover{
     background-color: rgba(128, 128, 128, 0.63);
+    
+    
 }
 main{
     width: 90vw;
