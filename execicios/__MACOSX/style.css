@@ -92,13 +92,14 @@ section.imagem> p {
 }
 section#img01{
   background-image: url(../imagens/background001.jpg);
-background-position: right ,center;
+background-position: center ,center;
 text-shadow: 1px 1px 0px;
 background-size: cover;
 }
  section#img02{
   background-image: url(../imagens/background002.jpg);
-  background-size: cover;
+  background-size: cover;  
+  
 
 
 
